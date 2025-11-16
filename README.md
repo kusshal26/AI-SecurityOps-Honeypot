@@ -54,7 +54,9 @@ requirements.txt
 
 Install dependencies
 Using CMD:
+```
 python -m pip install -r requirements.txt
+```
 
 ## 🚀 Running the Honeypot (Auto-Setup)
 
@@ -66,23 +68,29 @@ Open **three PowerShell windows** in the project folder side by side.
 
 ### 1️⃣ Start the AI analyzer
 Powershell 1 run:
+```
 python mock_ai_api.py
+```
 
 You should see:
-
+```
  * Running on http://127.0.0.1:9000
+```
 
 
 ---
 
 ### 2️⃣ Start the honeypot server
 Powershell 2 run:
+```
 python main.py
+```
 
 Expected output:
-
+```
 [*] Honeypot bound to port 2229
 [+] Honeypot active on 0.0.0.0:2229. Waiting for connections...
+```
 
 
 If port 2229 is already used, the honeypot will automatically try 2230 or higher.
@@ -91,7 +99,9 @@ If port 2229 is already used, the honeypot will automatically try 2230 or higher
 
 ### 3️⃣ Start the dashboard
 Powershell 3 run:
+```
 python dashboard.py
+```
 
 Then open your browser and visit:  
 👉 http://127.0.0.1:8080
