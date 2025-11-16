@@ -104,12 +104,15 @@ python dashboard.py
 ```
 
 Then open your browser and visit:  
+```
 👉 http://127.0.0.1:8080
+```
 
 Default login credentials(*You change it in dashboard.py*):
-
+```
 Username: admin
 Password: 1234
+```
 
 
 ---
@@ -119,16 +122,17 @@ Password: 1234
 You can test using the included **test client**:
 
 Open PowerShell in the project folder and run:
+```
 python test_client.py
+```
 
 
 You'll see logs like:
-
+```
 [LOG] 127.0.0.1:55010 | LOW | ls
 [LOG] 127.0.0.1:55010 | HIGH | sudo apt update
 [LOG] 127.0.0.1:55010 | CRITICAL | rm -rf /
-
-
+```
 Refresh your dashboard - the events will appear instantly.
 
 ---
@@ -136,9 +140,13 @@ Refresh your dashboard - the events will appear instantly.
 ## 🧰 Optional: Simulate Realistic Attacks
 
 To quickly fill your dashboard with fake data:
+```
 "--n (number of attacks)"
+```
 Open PowerShell in the project folder and run:
+```
 python simulate_attacks.py --n 10
+```
 
 
 This adds random IPs, countries, and command payloads into your database -  
