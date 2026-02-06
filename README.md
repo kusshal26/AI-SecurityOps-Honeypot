@@ -1,6 +1,6 @@
 # 🧠 AI SecurityOps Honeypot
 
-A lightweight, **AI-assisted honeypot** built for learning and security research.  
+A lightweight, **AI-assisted honeypot** built for learning and security research.
 It monitors attacker behavior, tags commands by severity, and displays them in a clean SOC-style dashboard.
 
 ---
